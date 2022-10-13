@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   myRegFormValidation = new FormGroup({
-    name: new FormControl("Laila",Validators.required),
+    name: new FormControl("Laila",[Validators.required,Validators.minLength(3)]),
     age: new FormControl(0,[Validators.min(20), Validators.max(40),Validators.required]),
     email:new FormControl('name@example.com',[Validators.required,Validators.email])
   })
