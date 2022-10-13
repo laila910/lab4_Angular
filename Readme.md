@@ -14,6 +14,9 @@
  1. first open proj and run it by `ng serve -o`.
  2. create 4 components in terminal `home`,`userDetails`,`profile`,`error`,`header`.
  3. add bootstrap links in index.html :)
- 4. 
+ 4. structure all Pages :) 
+ 5. make all routing in navbar and app.module.ts.
+ 6. complete all steps until finish :) 
+ 
 
 
